@@ -193,6 +193,16 @@ _More testing required._
 
 ***
 
+**[ESI MAYA22 USB](https://www.esi-audio.com/products/maya22usb/)**, low cost USB 2.0 Audio interface with ASIO-driver supporting basic audio routing natively
+
+**Windows**: ✅ Works great. Low latency. Tested with [native ASIO driver](https://download.esi-audio.com/?w=esi&p=95&g=2&l=en).
+
+**macOS**: ❓ Should work.
+
+**Linux**: ✅ Works instantly on qjackctl with incredibly low latency on USB2.0 port of a Raspi 4. Howevever, for the UI you will look for third-party workarounds.
+
+***
+
 **[Focusrite Scarlett range](https://focusrite.com/en/scarlett)**, USB digital audio interfaces
 
 **Windows**: ✅ Works great. If you have issues with the buffer size going to 136, download the updated driver version `4.64.15.598` from [http://beta.focusrite.com/](http://beta.focusrite.com/)
